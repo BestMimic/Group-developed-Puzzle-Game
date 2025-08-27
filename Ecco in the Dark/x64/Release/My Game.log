@@ -1,0 +1,27 @@
+﻿  Arrows.cpp
+C:\Users\natha\OneDrive\Documents\GameDev 2021\csce4210-5250-group12-master-2. Top Down Tiled Game With Death\2. Top Down Tiled Game With Death\My Game\Arrows.cpp(70,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\csce4210-5250-group12-master-2. Top Down Tiled Game With Death\2. Top Down Tiled Game With Death\My Game\Arrows.cpp(71,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\csce4210-5250-group12-master-2. Top Down Tiled Game With Death\2. Top Down Tiled Game With Death\My Game\Arrows.cpp(74,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\csce4210-5250-group12-master-2. Top Down Tiled Game With Death\2. Top Down Tiled Game With Death\My Game\Arrows.cpp(80,88): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\csce4210-5250-group12-master-2. Top Down Tiled Game With Death\2. Top Down Tiled Game With Death\My Game\Arrows.cpp(85,87): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\csce4210-5250-group12-master-2. Top Down Tiled Game With Death\2. Top Down Tiled Game With Death\My Game\Arrows.cpp(90,88): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\csce4210-5250-group12-master-2. Top Down Tiled Game With Death\2. Top Down Tiled Game With Death\My Game\Arrows.cpp(95,88): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  Bullet.cpp
+  Button.cpp
+  Common.cpp
+  Door.cpp
+  Game.cpp
+  Knight.cpp
+  Main.cpp
+  Object.cpp
+  ObjectManager.cpp
+C:\Users\natha\OneDrive\Documents\GameDev 2021\csce4210-5250-group12-master-2. Top Down Tiled Game With Death\2. Top Down Tiled Game With Death\My Game\ObjectManager.cpp(139,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Player.cpp
+  Pulse.cpp
+  Switches.cpp
+  TileManager.cpp
+  Turret.cpp
+  Generating code
+  Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+  Finished generating code
+  My Game.vcxproj -> C:\Users\natha\OneDrive\Documents\GameDev 2021\csce4210-5250-group12-master-2. Top Down Tiled Game With Death\2. Top Down Tiled Game With Death\x64\Release\Game.exe

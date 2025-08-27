@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+
+<!-- Game settings -->
+
+<settings>
+  <game name="Top Down Tiled Game Prototype With Death" />
+  <renderer width="1024" height="768"/>
+   
+  <font file="Media\Fonts\AverageSans_24.spritefont"/>
+
+  <!-- sprites -->
+   
+  <sprites path="Media\Images">
+    <sprite name="tile" file="tile" ext ="png" frames="4"/>
+	  <sprite name="crystal0" file="crystal0.png"/>
+    <sprite name="crystal1" file="crystal1.png"/>
+    <sprite name="buttonUp" file="buttonUp.png"/>
+    <sprite name="buttonDown" file="buttonDown.png"/>
+    <sprite name="player" file="player.png"/>
+    <sprite name="turret" file="turret.png"/>
+    <sprite name="bullet" file="bullet.png"/>
+    <sprite name="bullet2" file="bullet2.png"/>
+    <sprite name="bullet3" file="bullet3.png"/>
+    <sprite name="pulse" file="pulse.png"/>
+    <sprite name="smoke" file="graysmoke.png"/>
+    <sprite name="spark" file="spark.png"/>
+    <sprite name="greenline" file="greenline.png"/>
+	  <sprite name="arrow_sprite" file="arrow_sprite.png"/>
+    <sprite name="OpenDoor" file="OpenDoor.png"/>
+    <sprite name="LockedDoor" file="LockedDoor.png"/>
+    
+
+    <sprite name="vStandRight" file="theVoicedR.png"/>
+    <sprite name="vStandLeft" file="theVoicedL.png"/>
+    <sprite name="vStandDown" file="theVoicedD.png"/>
+    <sprite name="vStandUp" file="theVoicedU.png"/>
+
+    <sprite name="vWalkRightSheet" file="theVoicedLR.png"/>
+    <sprite name="vWalkRight" sheet="vWalkRightSheet" frames="8">
+      <frame index="0" left="6" top="4" right="27" bottom="47"/>>
+      <frame index="1" left="34" top="4" right="54" bottom="47"/>>
+      <frame index="2" left="62" top="4" right="82" bottom="47"/>>
+      <frame index="3" left="90" top="4" right="110" bottom="47"/>>
+      <frame index="4" left="123" top="4" right="143" bottom="47"/>>
+      <frame index="5" left="151" top="4" right="171" bottom="47"/>>
+      <frame index="6" left="179" top="4" right="199" bottom="47"/>>
+      <frame index="7" left="207" top="4" right="227" bottom="47"/>>
+    </sprite>
+
+    <sprite name="vWalkLeftSheet" file="theVoicedLR.png"/>
+    <sprite name="vWalkLeft" sheet="vWalkLeftSheet" frames="8">
+      <frame index="7" left="6" top="53" right="27" bottom="96"/>>
+      <frame index="6" left="34" top="53" right="54" bottom="96"/>>
+      <frame index="5" left="62" top="53" right="82" bottom="96"/>>
+      <frame index="4" left="90" top="53" right="110" bottom="96"/>>
+      <frame index="3" left="123" top="53" right="143" bottom="96"/>>
+      <frame index="2" left="151" top="53" right="171" bottom="96"/>>
+      <frame index="1" left="179" top="53" right="199" bottom="96"/>>
+      <frame index="0" left="207" top="53" right="227" bottom="96"/>>
+    </sprite>
+
+    <sprite name="vWalkDownSheet" file="theVoicedDU.png"/>
+    <sprite name="vWalkDown" sheet="vWalkDownSheet" frames="4">
+      <frame index="0" left="0" top="1" right="23" bottom="44"/>>
+      <frame index="1" left="29" top="1" right="51" bottom="44"/>>
+      <frame index="2" left="57" top="1" right="79" bottom="44"/>>
+      <frame index="3" left="85" top="1" right="107" bottom="44"/>>
+    </sprite>
+
+    <sprite name="vWalkUpSheet" file="theVoicedDU.png"/>
+    <sprite name="vWalkUp" sheet="vWalkUpSheet" frames="4">
+      <frame index="3" left="0" top="50" right="23" bottom="93"/>>
+      <frame index="2" left="29" top="50" right="51" bottom="93"/>>
+      <frame index="1" left="57" top="50" right="79" bottom="93"/>>
+      <frame index="0" left="85" top="50" right="107" bottom="93"/>>
+    </sprite>
+
+    <sprite name="vSKstandRight" file="SKnightR.png"/>
+    <sprite name="vSKstandLeft" file="SKnightL.png"/>
+    <sprite name="vSKstandDown" file="SknightD.png"/>
+    <sprite name="vSKstandUp" file="SknightU.png"/>
+
+    <sprite name="vSKwalkRightSheet" file="SKnightRL.png"/>
+    <sprite name="vSKwalkRight" sheet="vSKwalkRightSheet" frames="4">
+      <frame index="3" left="0" top="70" right="20" bottom="120"/>>
+      <frame index="2" left="25" top="70" right="50" bottom="120"/>>
+      <frame index="1" left="55" top="70" right="74" bottom="120"/>>
+      <frame index="0" left="79" top="70" right="104" bottom="120"/>>
+    </sprite>
+
+    <sprite name="vSKwalkLeftSheet" file="SKnightRL.png"/>
+    <sprite name="vSKwalkLeft" sheet="vSKwalkLeftSheet" frames="4">
+      <frame index="3" left="0" top="0" right="20" bottom="49"/>>
+      <frame index="2" left="25" top="0" right="51" bottom="49"/>>
+      <frame index="1" left="56" top="0" right="76" bottom="49"/>>
+      <frame index="0" left="81" top="0" right="105" bottom="49"/>>
+    </sprite>
+
+    <sprite name="vSKwalkDownSheet" file="SKnightDU.png"/>
+    <sprite name="vSKwalkDown" sheet="vSKwalkDownSheet" frames="4">
+      <frame index="0" left="0" top="0" right="30" bottom="54"/>>
+      <frame index="1" left="35" top="0" right="65" bottom="54"/>>
+      <frame index="2" left="70" top="0" right="99" bottom="54"/>>
+      <frame index="3" left="104" top="0" right="133" bottom="54"/>>
+    </sprite>
+
+    <sprite name="vSKwalkUpSheet" file="SKnightDU.png"/>
+    <sprite name="vSKwalkUp" sheet="vSKwalkUpSheet" frames="4">
+      <frame index="3" left="0" top="62" right="30" bottom="115"/>>
+      <frame index="2" left="35" top="62" right="64" bottom="115"/>>
+      <frame index="1" left="69" top="62" right="99" bottom="115"/>>
+      <frame index="0" left="104" top="62" right="135" bottom="115"/>>
+    </sprite>
+
+  </sprites>
+
+  <!-- sound -->
+  
+  <sounds  path="Media\Sounds"> 
+    <sound name="start" file="start.wav" instances="1"/>
+    <sound name="gun" file="44magnum.wav" instances="8"/>
+    <sound name="ricochet" file="ricochet.wav" instances="8"/>
+    <sound name="clang" file="clang.wav" instances="4"/>
+    <sound name="grunt" file="umph.wav" instances="2"/>
+    <sound name="boom" file="boom.wav" instances="4"/>
+    <sound name="pulse" file="pulse.wav" instances="4"/>
+	<sound name="bump" file="bump.wav" instances="8"/>
+  </sounds>
+</settings>

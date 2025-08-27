@@ -1,0 +1,31 @@
+/// \file Pulse.h
+/// \brief Interface for the bullet object class CBullet.
+
+#ifndef __L4RC_GAME_PULSE_H__
+#define __L4RC_GAME_PULSE_H__
+
+#include "Object.h"
+
+/// \brief The bullet object. 
+///
+/// The abstract representation of a bullet object. Bullet objects die in a
+/// cloud of smoke when they collide with anything.
+
+class CPulse : public CObject {
+protected:
+    float start = 0.0f;
+    int count = 0;
+    //bool deathDelayed = false;
+    virtual void move();
+    virtual void expand();
+    virtual void DelayDeath();
+    virtual void checkForDeath();
+    virtual void CollisionResponse(const Vector2&, float, CObject* = nullptr); ///< Collision response.
+    virtual void DeathFX(); ///< Death special effects.
+
+public:
+    CPulse(eSprite t, const Vector2& p); ///< Constructor.
+    
+}; //CPulse
+
+#endif //__L4RC_GAME_PULSE_H__
